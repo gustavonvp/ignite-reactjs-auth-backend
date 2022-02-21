@@ -17,6 +17,14 @@ export function seedUserStore() {
     permissions: ['users.list', 'metrics.list'],
     roles: ['editor']
   })
+
+  users.set('gto@firmarica.com', {
+    password: 'ileleu',
+    permissions: ['prodo.list', 'newstring.list'],
+    roles: ['literal']
+  })
+
+
 }
 
 export function createRefreshToken(email: string) {
